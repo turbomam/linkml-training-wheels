@@ -1,5 +1,5 @@
 # Auto generated from linkml_training_wheels.yaml by pythongen.py version: 0.9.0
-# Generation date: 2022-12-11T22:20:15
+# Generation date: 2022-12-11T22:21:52
 # Schema: linkml-training-wheels
 #
 # id: https://w3id.org/turbomam/linkml-training-wheels

@@ -26,7 +26,7 @@ linkml:topValue a owl:DatatypeProperty ;
     dcterms:license "MIT" ;
     dcterms:title "linkml-training-wheels" ;
     rdfs:seeAlso "https://turbomam.github.io/linkml-training-wheels" ;
-    linkml:generation_date "2022-12-11T22:20:13" ;
+    linkml:generation_date "2022-12-11T22:21:50" ;
     linkml:metamodel_version "1.7.0" ;
     linkml:source_file "linkml_training_wheels.yaml" ;
     linkml:source_file_date "2022-12-11T22:18:36" ;
@@ -110,11 +110,11 @@ linkml_training_wheels:NamedThing a owl:Class,
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onClass linkml:String ;
-            owl:onProperty schema:name ],
+            owl:onProperty schema:description ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onClass linkml:String ;
-            owl:onProperty schema:description ] ;
+            owl:onProperty schema:name ] ;
     skos:definition "A generic grouping for any identifiable entity" ;
     skos:exactMatch schema:Thing .
 
@@ -127,16 +127,16 @@ linkml_training_wheels:Person a owl:Class,
             owl:onProperty linkml_training_wheels:vital_status ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
+            owl:onClass linkml:String ;
+            owl:onProperty schema:email ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
             owl:onClass linkml:Integer ;
             owl:onProperty linkml_training_wheels:age_in_years ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onClass linkml:Date ;
             owl:onProperty schema:birthDate ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass linkml:String ;
-            owl:onProperty schema:email ],
         linkml_training_wheels:NamedThing ;
     skos:definition "Represents a Person" .
 

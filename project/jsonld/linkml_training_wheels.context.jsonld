@@ -1,5 +1,5 @@
 {
-   "_comments": "Auto generated from linkml_training_wheels.yaml by jsonldcontextgen.py version: 0.1.1\n    Generation date: 2022-12-11T22:20:10\n    Schema: linkml-training-wheels\n    metamodel version: 1.7.0\n    model version: None\n    \n    id: https://w3id.org/turbomam/linkml-training-wheels\n    description: Experimenting with things that could be useful with LinkML\n    license: MIT\n    ",
+   "_comments": "Auto generated from linkml_training_wheels.yaml by jsonldcontextgen.py version: 0.1.1\n    Generation date: 2022-12-11T22:21:47\n    Schema: linkml-training-wheels\n    metamodel version: 1.7.0\n    model version: None\n    \n    id: https://w3id.org/turbomam/linkml-training-wheels\n    description: Experimenting with things that could be useful with LinkML\n    license: MIT\n    ",
    "@context": {
       "PATO": {
          "@id": "http://purl.obolibrary.org/obo/PATO_",

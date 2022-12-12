@@ -10,6 +10,9 @@ include = ["README.md", "src/linkml_training_wheels/schema", "project"]
 [tool.poetry.dependencies]
 python = "^3.9"
 linkml-runtime = "^1.1.24"
+flask = "^2.2.2"
+uvicorn = "^0.20.0"
+fastapi = "^0.88.0"
 
 [tool.poetry-dynamic-versioning]
 enable = true
