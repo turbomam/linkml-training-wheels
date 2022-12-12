@@ -1,0 +1,6 @@
+name: linkml_training_wheels
+author: Mark Andrew Miller <mamillerpa@gmail.com>
+description: Experimenting with things that could be useful with LinkML
+source_schema_path: src/linkml_training_wheels/schema/linkml_training_wheels.yaml
+google_sheet_id: 1wVoaiFg47aT9YWNeRfTZ8tYHN8s8PAuDx5i2HUcDpvQ
+google_sheet_tabs: personinfo enums

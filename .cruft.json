@@ -1,0 +1,27 @@
+{
+  "template": "https://github.com/linkml/linkml-project-cookiecutter",
+  "commit": "c917617feee59d5cd10d65666e8fd975a969444d",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "linkml-training-wheels",
+      "__project_slug": "linkml_training_wheels",
+      "github_org": "turbomam",
+      "__source_path": "src/linkml_training_wheels/schema/linkml_training_wheels.yaml",
+      "project_description": "Experimenting with things that could be useful with LinkML",
+      "full_name": "Mark Andrew Miller",
+      "email": "mamillerpa@gmail.com",
+      "__author": "Mark Andrew Miller <mamillerpa@gmail.com>",
+      "license": "MIT",
+      "main_schema_class": "Person",
+      "create_python_classes": "Yes",
+      "use_schemasheets": "No",
+      "google_sheet_id": "1wVoaiFg47aT9YWNeRfTZ8tYHN8s8PAuDx5i2HUcDpvQ",
+      "google_sheet_tabs": "personinfo enums",
+      "__google_sheet_module": "personinfo_enums",
+      "github_token_for_pypi_deployment": "PYPI_PASSWORD",
+      "_template": "https://github.com/linkml/linkml-project-cookiecutter"
+    }
+  },
+  "directory": null
+}
